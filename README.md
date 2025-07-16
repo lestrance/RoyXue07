@@ -26,11 +26,12 @@
 
 ## 📄 About Me
 
-I recently completed my PhD in Electronic and Electrical Engineering at the University of Sheffield. My research focused on developing robust and interpretable deep learning models for real-world medical image analysis, with an emphasis on adversarial example detection, uncertainty-aware decision-making, and feature-level robustness under distribution shift.
+I recently completed my PhD in Electronic and Electrical Engineering at the University of Sheffield. My research focused on developing robust and interpretable deep learning models for real-world medical image analysis, with an emphasis on detecting adversarial examples, uncertainty-aware decision-making, and achieving feature-level robustness under distribution shifts.
 
 In my thesis, I proposed a set of quantisation, regularisation, and knowledge transfer methods using wavelet scattering features to enhance the adversarial resilience of deep neural networks. I also developed a novel region-of-interest aware 3D ResNet architecture for prognostic classification of volumetric chest CT scans during the COVID-19 pandemic.
 
-I have published four peer-reviewed papers (IEEE ICASSP, IEEE ACCESS, BMVC, and one under review at IEEE TNNLS), with over 70 citations to date. I have experience working with interdisciplinary teams across engineering, clinical medicine, and computer science, and have contributed to project supervision and collaborative research development.
+I have published four peer-reviewed papers (IEEE ICASSP, IEEE ACCESS, BMVC, and one under review at IEEE TNNLS), with over 70 citations to date. I have experience working with interdisciplinary teams across engineering, clinical medicine, and computer science, and have contributed to project supervision and collaborative research development. During my research, I have worked extensively with datasets such as [COVID-CT-MD](https://www.nature.com/articles/s41597-021-00900-3) for volumetric chest CT classification, [BraTS](https://www.nature.com/articles/s41467-022-30695-9) for brain tumour segmentation, [ImageNet](https://www.image-net.org/) for large-scale visual recognition, [Cityscapes](https://www.cityscapes-dataset.com/) for urban scene understanding, and [CamVid](http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/) for semantic segmentation in driving environments.
+
 
 
 ---
