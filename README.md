@@ -96,7 +96,7 @@ We present a neural projection method that maps WSN features to DNN feature spac
 
 - **Deep Learning:** PyTorch, TensorFlow, Keras, MONAI  
 - **Classical ML & Signal Processing:** MATLAB, Scikit-learn  
-- **Medical Imaging:** ITK/SimpleITK, Nibabel, DICOM, CT/MRI processing  
+- **Medical Imaging:** CT/MRI processing, DICOM
 - **Adversarial ML:** FGSM, PGD, CW attacks, detection & defence methods  
 - **Software Engineering:** Git, GitHub Actions, Python OOP, unit testing  
 - **Writing & Collaboration:** LaTeX, Overleaf, academic writing, grant drafting  
