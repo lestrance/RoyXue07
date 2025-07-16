@@ -61,7 +61,7 @@ This paper validates the inherent robustness of hand-crafted features (especiall
 - **Adversarial Awareness Score (AAS):** A feature-discrepancy metric to detect adversarial examples.
 - **AAS-Guided Jacobian Regularisation:** A novel training strategy enhancing robustness without sacrificing clean accuracy.
 
-**Tech stack:** MATLAB, PyTorch, ImageNet experiments, adversarial attacks (FGSM, PGD, CW)  
+**Tech stack:** MATLAB, PyTorch, ImageNet experiments, adversarial attacks
 **Published in:** [BMVC 2025](https://bmvc2025.bmva.org/)
 
 ---
