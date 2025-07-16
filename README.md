@@ -48,14 +48,14 @@ We developed a 3D deep transfer learning pipeline for classifying COVID-19 infec
 
 ### 2. 🧠 ROI-Aware 3D ResNet for Chest CT Classification [[PDF]](./Region-of-Interest_Aware_3D_ResNet_for_Classification_of_COVID-19_Chest_Computerised_Tomography_Scans.pdf)
 
-This work proposes an ROI-aware feature enhancement block integrated into a 3D ResNet to focus on regions affected by lung infection. The model outperforms conventional 3D ResNets in COVID-19 CT classification by improving sensitivity to disease-relevant areas.
+This work proposes an ROI-aware feature enhancement block integrated into a 3D ResNet, focusing on regions affected by lung infection. The model outperforms conventional 3D ResNets in COVID-19 CT classification by improving sensitivity to disease-relevant areas.
 
 **Tech stack:** PyTorch, SimpleITK, lung segmentation, attention-based pooling  
 **Published in:** IEEE ACCESS (2023)
 
 ---
 
-### 3. 🛡️ Adversarial Awareness with Hand-crafted Features <span style="color:orange;">(Appears later this year at the conference)</span>
+### 3. 🛡️ Adversarial Awareness with Hand-crafted Features *(Appears later this year at the conference)*
 
 This paper validates the inherent robustness of hand-crafted features (especially WSN) under adversarial attacks and proposes:
 - **Adversarial Awareness Score (AAS):** A feature-discrepancy metric to detect adversarial examples.
@@ -66,7 +66,7 @@ This paper validates the inherent robustness of hand-crafted features (especiall
 
 ---
 
-### 4. 🔄 Feature Projection Network for Robust Classification <span style="color:orange;">(Currently Submitted for Review)</span>
+### 4. 🔄 Feature Projection Network for Robust Classification *(Currently Submitted for Review)*
 
 We present a neural projection method that maps WSN features to DNN feature space, enabling robust classification from adversarially stable representations. The technique enhances robustness by transforming input features before classification, without modifying the DNN architecture.
 
