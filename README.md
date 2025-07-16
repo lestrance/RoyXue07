@@ -1,89 +1,106 @@
 # 👋 Hi, I'm Shuohan Xue (Roy)
 
 🎓 PhD in Electronic and Electrical Engineering, University of Sheffield  
-📬 sxue6@sheffield.ac.uk | [LinkedIn](https://www.linkedin.com/in/sxue07roy/) | [Google Scholar](https://scholar.google.com)  
-🛂 Eligible to work in the UK under the Global Talent route  
+📬 sxue6@sheffield.ac.uk | [LinkedIn](https://www.linkedin.com/in/sxue07roy/) | [IEEE Xplore](https://ieeexplore.ieee.org/author/37088931505)  
 🧠 Researcher in robust deep learning, medical imaging, and adversarial AI  
 
 ---
 
 ## 🔬 Research Interests
 
-- Robust and interpretable deep learning  
-- Adversarial examples and distributional shift  
-- Medical image analysis (CT, MRI)  
-- Neural signal processing (EEG, fMRI)  
-- Human-in-the-loop and uncertainty-aware learning  
+- Robust and interpretable deep learning for medical and clinical applications  
+- Adversarial example detection and defence under distribution shifts  
+- 3D medical image analysis using volumetric CT (COVID-CT-MD) and ROI-aware models  
+- Quantitative evaluation of model uncertainty and adversarial awareness  
+- Hybrid feature modelling using deep neural networks and wavelet scattering transforms  
 - Knowledge transfer and hybrid feature modelling  
+- Signal and image processing for healthcare and biomedical systems
+
 
 ---
 
 ## 📄 About Me
 
-I recently completed my PhD at the University of Sheffield, where I focused on developing trustworthy deep learning models for medical and clinical applications. My work integrates deep neural networks, wavelet-based representations, and adversarial detection mechanisms to improve robustness and interpretability in real-world settings.
+I recently completed my PhD in Electronic and Electrical Engineering at the University of Sheffield. My research focused on developing robust and interpretable deep learning models for real-world medical image analysis, with an emphasis on adversarial example detection, uncertainty-aware decision-making, and feature-level robustness under distribution shift.
 
-I have published four peer-reviewed papers, including journal and conference venues (IEEE ACCESS, ICASSP, BMVC), with one currently under review at IEEE TNNLS. I am also experienced in cross-disciplinary collaboration, student supervision, and academic writing.
+In my thesis, I proposed a set of quantisation, regularisation, and knowledge transfer methods using wavelet scattering features to enhance the adversarial resilience of deep neural networks. I also developed a novel region-of-interest aware 3D ResNet architecture for prognostic classification of volumetric chest CT scans during the COVID-19 pandemic.
 
----
+I have published four peer-reviewed papers (IEEE ICASSP, IEEE ACCESS, BMVC, and one under review at IEEE TNNLS), with over 70 citations to date. I have experience working with interdisciplinary teams across engineering, clinical medicine, and computer science, and have contributed to project supervision and collaborative research development.
 
-## 🧠 Key Projects
-
-### 🧪 RoI-Aware 3D ResNet for COVID-19 Diagnosis  
-- Developed a novel 3D deep neural network with region-of-interest (RoI) attention  
-- Designed a custom preprocessing pipeline for the COVID-CT-MD dataset  
-- Achieved state-of-the-art performance in CT-based prognosis prediction  
-- 📄 [IEEE ACCESS Paper](https://ieeexplore.ieee.org/document/10078249)
-
-### 🛡️ Adversarial Awareness Framework  
-- Built hybrid deep learning pipelines combining DNN and Wavelet Scattering features  
-- Proposed a quantifiable adversarial detection metric based on Frobenius norms  
-- Evaluated robustness using large-scale perturbed datasets  
-- 📄 [BMVC 2025 Paper (Accepted)](https://bmvc2025.bmva.org/)
-
-### 🔄 Feature Mapping via Knowledge Transfer  
-- Trained sequence-to-sequence models and autoencoders to map WSN to DNN space  
-- Designed new loss functions to encourage resilience under adversarial perturbation  
-- Under review at IEEE TNNLS
 
 ---
 
-## 📚 Publications
+## 🏆 Key Projects
 
-- **Xue, S.**, Liu, Y., & Ye, X. (2023). *Region-of-Interest Aware 3D ResNet for Classification of COVID-19 Chest Computerised Tomography Scans*. **IEEE ACCESS**.  
-  [DOI](https://doi.org/10.1109/ACCESS.2023.3260632)
+### 1. 🫁 Covid-19 Diagnosis with 3D Transfer Learning [[PDF]](./Covid-19_Diagnostic_Using_3d_Deep_Transfer_Learning_for_Classification_of_Volumetric_Computerised_Tomography_Chest_Scans.pdf)
 
-- **Xue, S.**, Ye, X. (2021). *Covid-19 Diagnostic Using 3D Deep Transfer Learning for CT Classification*. **IEEE ICASSP**.  
-  [DOI](https://doi.org/10.1109/ICASSP39728.2021.9414947)
+We developed a 3D deep transfer learning pipeline for classifying COVID-19 infections from volumetric CT scans. Using pretrained 3D ResNet architectures, the system achieved high classification performance with minimal training data, demonstrating potential for real-world clinical triage support during the pandemic.
 
-- **Xue, S.**, et al. (2025). *Adversarial Awareness in Hybrid Wavelet-DNN Models*. **BMVC 2025**.  
-  [Conference Site](https://bmvc2025.bmva.org/)
+**Tech stack:** PyTorch, MONAI, 3D ResNet, Medical image pre-processing  
+**Published in:** IEEE ICASSP 2021
 
-- **Xue, S.**, et al. (under review). *Robustness via Adversarial-Aware Projection and Regularisation*. **IEEE TNNLS**
+---
 
-📊 *Citations: 70+ (as of July 2025)*
+### 2. 🧠 ROI-Aware 3D ResNet for Chest CT Classification [[PDF]](./Region-of-Interest_Aware_3D_ResNet_for_Classification_of_COVID-19_Chest_Computerised_Tomography_Scans.pdf)
+
+This work proposes an ROI-aware feature enhancement block integrated into a 3D ResNet to focus on regions affected by lung infection. The model outperforms conventional 3D ResNets in COVID-19 CT classification by improving sensitivity to disease-relevant areas.
+
+**Tech stack:** PyTorch, SimpleITK, lung segmentation, attention-based pooling  
+**Published in:** IEEE ACCESS (2023)
+
+---
+
+### 3. 🛡️ Adversarial Awareness with Hand-crafted Features [[PDF]](./3rd%20publication.pdf)
+
+This paper validates the inherent robustness of hand-crafted features (especially WSN) under adversarial attacks and proposes:
+- **Adversarial Awareness Score (AAS):** A feature-discrepancy metric to detect adversarial examples.
+- **AAS-Guided Jacobian Regularisation:** A novel training strategy enhancing robustness without sacrificing clean accuracy.
+
+**Tech stack:** MATLAB, PyTorch, ImageNet experiments, adversarial attacks (FGSM, PGD, CW)  
+**Published in:** IEEE ACCESS (2024)
+
+---
+
+### 4. 🔄 Feature Projection Network for Robust Classification [[PDF]](./4th%20publication.pdf)
+
+We present a neural projection method that maps WSN features to DNN feature space, enabling robust classification from adversarially stable representations. The technique enhances robustness by transforming input features before classification, without modifying the DNN architecture.
+
+**Tech stack:** PyTorch, Autoencoders, Seq2Seq regression, Wavelet Scattering Network  
+**Status:** Under review at IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
+
+---
+
+## 📚 Publications During my PhD
+
+1. **"Covid-19 Diagnostic Using 3D Deep Transfer Learning"**  
+   _IEEE ICASSP 2021_  
+2. **"ROI-Aware 3D ResNet for COVID-19 CT Scan Classification"**  
+   _IEEE ACCESS 2023_  
+3. **"Validating the Adversarial Robustness of Hand-Crafted Features"**  
+   _IEEE ACCESS 2024_ (Accepted)  
+4. **"Adversarial Feature Projection Network for Robust Image Classification"**  
+   _IEEE TNNLS_ (Under Review)
+
+---
+
+📊 *Citations: 70+ (as of June 2025)*
 
 ---
 
 ## 🧰 Technical Skills
 
-**Languages**: Python, MATLAB, C, Bash  
-**Frameworks**: PyTorch, TensorFlow, Scikit-learn, MONAI, OpenCV  
-**Toolkits**: EEGLAB, SPM, FSL, nibabel, SciPy  
-**Areas**: Deep Learning, Signal Processing, Medical Imaging, Probabilistic Modelling  
-**Tools**: Git, Docker, LaTeX, GitHub Actions
+- **Deep Learning:** PyTorch, TensorFlow, Keras, MONAI  
+- **Classical ML & Signal Processing:** MATLAB, Scikit-learn  
+- **Medical Imaging:** ITK/SimpleITK, Nibabel, DICOM, CT/MRI processing  
+- **Adversarial ML:** FGSM, PGD, CW attacks, detection & defence methods  
+- **Software Engineering:** Git, GitHub Actions, Python OOP, unit testing  
+- **Writing & Collaboration:** LaTeX, Overleaf, academic writing, grant drafting  
 
 ---
 
 ## 💼 Professional Experience
 
-### 🎓 Postgraduate Researcher  
-**University of Sheffield**  
-*Mar 2020 – Nov 2024*  
-- Developed interpretable and adversarial-robust AI models for medical data  
-- Published and presented at leading AI and medical imaging conferences  
-- Collaborated with clinicians and supervised MSc student projects
-
-### 🏭 Camera Systems Engineer  
+### 🏭 Electronic Engineer  
 **Foxconn Technology Group**  
 *Jul 2015 – Jul 2017*  
 - Maintained calibration systems for iPhone/iPad camera production  
