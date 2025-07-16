@@ -6,7 +6,7 @@
 </p>
 
 🎓 PhD in Electronic and Electrical Engineering, University of Sheffield  
-📬 sxue6@sheffield.ac.uk | [LinkedIn](https://www.linkedin.com/in/sxue07roy/) | [IEEE Xplore](https://ieeexplore.ieee.org/author/37088931505)  
+📬 [Email Me](mailto:sxue6@sheffield.ac.uk) | [LinkedIn](https://www.linkedin.com/in/sxue07roy/) | [IEEE Xplore](https://ieeexplore.ieee.org/author/37088931505)  
 🧠 Researcher in Adversarial machine/deep learning, Robust machine/deep learning, medical imaging, and XAI  
 ---
 
