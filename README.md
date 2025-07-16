@@ -1,18 +1,15 @@
-# 👋 Hi, I'm Shuohan Xue (Roy)
+
 
 <p align="center">
   <img src="xue_sh.jpg" alt="Shuohan Xue" width="180" height="180" style="border-radius: 50%;"><br>
   <b>Shuohan Xue (Roy)</b><br>
-  PhD | Machine/Deep Learning Researcher | Robust AI; Interpretable AI; XAI; Medical Imaging
+🎓 PhD in Electronic and Electrical Engineering, University of Sheffield  
+📬 sxue6@sheffield.ac.uk | [LinkedIn](https://www.linkedin.com/in/sxue07roy/) | [IEEE Xplore](https://ieeexplore.ieee.org/author/37088931505)  
+🧠 Researcher in Robust machine/deep learning, medical imaging, and adversarial machine/deep learning, XAI  
 </p>
 
 ---
 
-🎓 PhD in Electronic and Electrical Engineering, University of Sheffield  
-📬 sxue6@sheffield.ac.uk | [LinkedIn](https://www.linkedin.com/in/sxue07roy/) | [IEEE Xplore](https://ieeexplore.ieee.org/author/37088931505)  
-🧠 Researcher in robust deep learning, medical imaging, and adversarial AI  
-
----
 
 ## 🔬 Research Interests
 
