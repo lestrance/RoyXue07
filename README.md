@@ -55,7 +55,7 @@ This work proposes an ROI-aware feature enhancement block integrated into a 3D R
 
 ---
 
-### 3. 🛡️ Adversarial Awareness with Hand-crafted Features [[PDF]](./3rd%20publication.pdf)
+### 3. 🛡️ Adversarial Awareness with Hand-crafted Features (Appears later this year at the conference)
 
 This paper validates the inherent robustness of hand-crafted features (especially WSN) under adversarial attacks and proposes:
 - **Adversarial Awareness Score (AAS):** A feature-discrepancy metric to detect adversarial examples.
@@ -66,7 +66,7 @@ This paper validates the inherent robustness of hand-crafted features (especiall
 
 ---
 
-### 4. 🔄 Feature Projection Network for Robust Classification [[PDF]](./4th%20publication.pdf)
+### 4. 🔄 Feature Projection Network for Robust Classification (Currently Submitted for Review)
 
 We present a neural projection method that maps WSN features to DNN feature space, enabling robust classification from adversarially stable representations. The technique enhances robustness by transforming input features before classification, without modifying the DNN architecture.
 
