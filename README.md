@@ -112,7 +112,7 @@ We present a neural projection method that maps WSN features to DNN feature spac
 ## 📫 Contact
 
 - 📧 Email: sxue6@sheffield.ac.uk  
-- 🌐 Personal Site: [GitHub Pages (coming soon)](https://yourusername.github.io)  
+- 🌐 Personal Site: [GitHub Pages](https://github.com/lestrance/RoyXue07)  
 - 🔗 [LinkedIn](https://www.linkedin.com/in/sxue07roy/)  
 - 🧪 [Google Scholar](https://scholar.google.com)
 
