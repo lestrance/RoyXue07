@@ -62,7 +62,7 @@ This paper validates the inherent robustness of hand-crafted features (especiall
 - **AAS-Guided Jacobian Regularisation:** A novel training strategy enhancing robustness without sacrificing clean accuracy.
 
 **Tech stack:** MATLAB, PyTorch, ImageNet experiments, adversarial attacks (FGSM, PGD, CW)  
-**Published in:** IEEE ACCESS (2024)
+**Published in:** [BMVC 2025](https://bmvc2025.bmva.org/)
 
 ---
 
@@ -82,7 +82,7 @@ We present a neural projection method that maps WSN features to DNN feature spac
 2. **"ROI-Aware 3D ResNet for COVID-19 CT Scan Classification"**  
    _IEEE ACCESS 2023_  
 3. **"Validating the Adversarial Robustness of Hand-Crafted Features"**  
-   _IEEE ACCESS 2024_ (Accepted)  
+   _[BMVC 2025 (Accepted)](https://bmvc2025.bmva.org/)_
 4. **"Adversarial Feature Projection Network for Robust Image Classification"**  
    _IEEE TNNLS_ (Under Review)
 
