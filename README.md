@@ -1,7 +1,7 @@
 
 
 <p align="center">
-  <img src="xue.jpg" alt="Shuohan Xue" width="200" height="280" style="border-radius: 50%;"><br>
+  <img src="xue.jpg" alt="Shuohan Xue" width="200" height="300" style="border-radius: 50%;"><br>
   <b>Shuohan Xue (Roy)</b><br>
 </p>
 
